@@ -1,0 +1,25 @@
+
+<h2>A/B Test – Game Experiment</h2>
+
+<h3>Primary KPI: 7-day retention</h3>
+<p>
+A: 0.1902 &nbsp;&nbsp; B: 0.1820<br>
+Δ = -0.0082 (95% CI [-0.0133, -0.0031]),
+p = 0.002
+</p>
+
+<h3>Secondary: Gameplay (sum_gamerounds)</h3>
+<p>
+A: 52.46 &nbsp;&nbsp; B: 51.30<br>
+Δ = -1.16
+(Welch 95% CI [-3.72, 1.40];
+Bootstrap 95% CI [-4.04, 0.95];
+Permutation p = 0.470)
+</p>
+
+<h3>Visuals</h3>
+<p><img src="revenue_dist.png" width="520"></p>
+<p><img src="revenue_ci.png"   width="520"></p>
+
+<h3>Decision</h3>
+<p>Base the ship/no-ship on the <b>primary KPI</b>. Secondary is supportive and not significant here.</p>
